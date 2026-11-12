@@ -15,7 +15,8 @@ def load_model():
 model, class_names = load_model()
 
 st.title("Klasifikasi Furniture (Custom CNN)")
-st.write("Upload foto furniture (Seperti Kursi, Meja, Laptop dan Meja), model akan memprediksi kelasnya.")
+st.write("Upload foto furniture seperti Kursi, Meja, Laptop dan Meja atau bahkan orang/person ")
+st.write("model akan memprediksi kelasnya.")
 
 file = st.file_uploader("Pilih gambar", type=["jpg", "jpeg", "png", "webp"])
 
